@@ -1,0 +1,72 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Noto+Sans+TC" rel="stylesheet">
+    <title>NASA</title>
+</head>
+<body>
+    <nav>
+        <div class="logoNasa">
+            <img src="{% static '/images/nasa.png' %}" alt="">
+        </div>
+        
+        <div class="links">
+            <a href="#comoFunciona">COMO FUNCIONA</a>
+            
+        </div>
+    </nav>
+    
+    <section>
+        <img src="{% static '/images/astronaut.jpg' %}" alt="">
+    </section>
+    
+    <aside>
+        <div name ="comoFunciona">
+            <p>COMO FUNCIONA?</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+    </aside>
+    
+    <article>
+            <div class="rocket">
+                <div>
+                    <img src="{% static '/images/aqualung.png' %}" alt="">
+                </div>
+                <div class="txtRocket">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                </div>
+            </div>
+            <div class="astronomy">
+                <div>
+                    <img src={% static '/images/astronomy.png'%} alt="">
+                </div>
+                <div class="txtAstronomy">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                </div>
+            </div>       
+            <div class="earth">
+                <div>
+                    <img src={% static '/images/earth.png'%} alt="">
+                </div>
+                <div class="txtEarth">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                </div>
+            </div>  
+    </article>
+    <footer>
+        <h3>NOS SIGA NAS REDES SOCIAIS</h3>
+        <div class="social">
+            <img src={% static '/images/linkedin.png'%} alt="">
+            <img src={% static '/images/facebook.png'%} alt="">
+            <img src={% static '/images/google.png'%} alt="">
+            <img src={% static '/images/twitter.png'%} alt="">
+        </div>
+    </footer>
+
+</body>
+</html>
