@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Renomear.DESKTOP-BS0U13S\desktop\projetoseg\myenv"
+VIRTUAL_ENV="C:\Users\Renomear.DESKTOP-BS0U13S\desktop\DJANGO_primeiro-estudo\myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

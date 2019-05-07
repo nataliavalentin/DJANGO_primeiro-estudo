@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\Renomear.DESKTOP-BS0U13S\desktop\projetoseg\myenv"
+$env:VIRTUAL_ENV="C:\Users\Renomear.DESKTOP-BS0U13S\desktop\DJANGO_primeiro-estudo\myenv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name
